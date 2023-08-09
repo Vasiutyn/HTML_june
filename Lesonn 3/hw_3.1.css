@@ -1,0 +1,32 @@
+div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+h3{
+    text-align: center;
+}
+section{
+    text-align: center;
+    font-size: 30px;
+    width: 70vw;
+    height: 70vh;
+}
+a{
+    font-size: 70px;
+    color: black;
+}
+body{
+    margin: 0;
+}
