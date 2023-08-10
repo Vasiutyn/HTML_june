@@ -1,6 +1,14 @@
 body{
     margin: 0;
 }
+#page_1{
+    width: 100vw;
+    height: 100vh;
+}
+#page_2{
+    width: 100vw;
+    height: 100vh;
+}
 header{
     width: 100vw;
     height: 20vh;
@@ -100,4 +108,12 @@ section{
     width: 50vw;
     height: 80vh;
 
+}
+.body_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
 }
