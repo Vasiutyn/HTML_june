@@ -41,8 +41,10 @@ section{
     height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
+    margin-bottom: 30px;
+
 
 }
 .head_text{
@@ -51,12 +53,11 @@ section{
 }
 .title{
     color: #000;
-    font-family: Jost;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    text-align: left;
 }
 .text{
     color: #000;
@@ -65,8 +66,12 @@ section{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: left;
 }
 
+.button{
+    text-align: left;
+}
 .b_1{
     width: 150px;
     height: 55px;
@@ -94,4 +99,5 @@ section{
 .img{
     width: 50vw;
     height: 80vh;
+
 }
