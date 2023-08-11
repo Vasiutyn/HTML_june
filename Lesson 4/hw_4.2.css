@@ -1,0 +1,57 @@
+body{
+    background-color: #3c665a;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.firstpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.title{
+    background-color: rgba(0,139,139,0.3);
+    width: 100%;
+    height: 25%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.title p{
+    margin: 0;
+}
+
+#password, #email{
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fin{
+    width: 70%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 80px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
