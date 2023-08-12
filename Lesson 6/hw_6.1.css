@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.a{
+    width: 100vw;
+    height: 30vh;
+    background-color: #3c665a;
+}
+.flex{
+    display: flex;
+}
+.b{
+    width: 70vw;
+    height: 70vh;
+    background-color: purple;
+}
+.c{
+    width: 30vw;
+    height: 70vh;
+    background-color: dodgerblue;
+}
