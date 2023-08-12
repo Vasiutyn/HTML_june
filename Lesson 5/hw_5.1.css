@@ -1,0 +1,17 @@
+.blick_1>ul>li:nth-child(even){
+    color: pink;
+}
+.blick_2>ul>li:nth-child(odd){
+    font-size: 22px;
+}
+.blick_3>ul>li:nth-child(2n+4)::after{
+    content: "!";
+}
+
+.blick_4>ul>li:last-child{
+    color: purple;
+}
+.blick_5>ul>li:first-letter{
+    color: red;
+    font-size: 30px;
+}
