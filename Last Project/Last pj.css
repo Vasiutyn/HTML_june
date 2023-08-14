@@ -54,7 +54,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     font-weight: 400;
     line-height: 27.3px; /* 160.588% */
     text-transform: uppercase;
-
 }
 
+.nav{
+    background: rgba(0, 0, 0, 0.60);
+    width: 100vw;
+    height: 67px;
+    flex-shrink: 0;
+}
 
