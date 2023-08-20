@@ -366,6 +366,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 1);
 }
 .top_build{
     padding: 0 20px;
@@ -490,7 +491,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     flex-direction: column;
     width: 1200px;
     height: 914px;
-    background-color: rgba(0, 0, 0, 0.2);
     position: relative;
 }
 .title_foot{
@@ -545,7 +545,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .content_foot{
     width: 100vw;
     height: 422px;
-    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -555,11 +554,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 300px;
     height: 420px;
     flex-shrink: 0;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .inf_block{
     display: flex;
     width: 300px;
+    height: 200px;
     padding: 62.219px 25.74px 65.781px 26.26px;
     flex-direction: column;
     justify-content: center;
